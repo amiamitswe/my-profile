@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  
+}
+
+.App__mytext {
+    margin-left: 240px;
+    background-color: aqua;
+    margin-top: 0px;
+    padding: 16px;
+}
+
