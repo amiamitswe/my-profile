@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from '../Styles/Home.module.css';
+import '../Styles/Animation.css';
 
 const home = () => {
     return(
+        <div className = "w3-container w3-center w3-animate-zoom">
         <div className ={styles.home}>
            <div className={styles.home__content}>
            <h2 id={styles.home__firstchild}>Hi I am <span id={styles.myName}>Amit Samadder</span></h2>
@@ -26,6 +28,7 @@ const home = () => {
                    <h3>Currently Working at</h3>
                    <h2 className={styles.home__subcontent2} id={styles.currentWork}>At Home</h2>
                </div>
+           </div>
            </div>
         </div>
     );

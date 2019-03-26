@@ -5,7 +5,7 @@
 .home__content {
     background-color: rgb(228, 254, 255);
     width: 70%;
-    margin: 0 auto;
+    margin: -15px auto;
 }
 #home__firstchild {
     padding-top: 26px;
