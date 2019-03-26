@@ -14,8 +14,8 @@ const sideBar = () => {
             </NavLink>
            <div>
                 <NavLink to="/" activeClassName={styles.sideBar__activeClass} className={styles.NavLink} id={styles.NavLink__fistchild} exact={true}>Home</NavLink>
-                <NavLink to="/dashbord" activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>Dashbord</NavLink>
                 <NavLink to="/aboutme" activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>About Me</NavLink>
+                <NavLink to="/dashbord" activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>Dashbord</NavLink>
            </div>
         </div>
     );
