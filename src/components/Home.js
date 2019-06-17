@@ -26,7 +26,7 @@ const home = () => {
                </div>
                <div id={styles.home__lastChild}>
                    <h3>Currently Working at</h3>
-                   <h2 className={styles.home__subcontent2} id={styles.currentWork}>At Home</h2>
+                   <h2 className={styles.home__subcontent2} id={styles.currentWork}><a href="https://omicron-it.com/">Omicron IT</a></h2>
                </div>
            </div>
            </div>
