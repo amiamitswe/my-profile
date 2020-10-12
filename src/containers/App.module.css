@@ -1,12 +1,41 @@
 .App {
   text-align: center;
-  
 }
 
 .App__mytext {
-    margin-left: 240px;
-    background-color: rgb(173, 247, 197);
-    margin-top: 0px;
-    padding: 16px;
+  margin-left: 240px;
+  background-color: rgb(173, 247, 197);
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding: 16px;
+  color: #393939;
 }
 
+@media (max-width: 767px) {
+  .App__mytext {
+    margin-left: 0;
+    text-align: right;
+    font-size: 1.8em;
+    letter-spacing: -1px;
+  }
+}
+
+.Title {
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.ShowMenu {
+  cursor: pointer;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  left: 0px;
+  top: 42%;
+  transform: translate(10%, -50%);
+}
+
+.ShowMenu img {
+  width: 35px;
+}

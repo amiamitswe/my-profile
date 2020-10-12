@@ -1,0 +1,35 @@
+.HomeContent a {
+  text-decoration: none;
+  color: #606060;
+}
+
+.HomeContent a:hover {
+  color: #fff;
+}
+
+.Bangladesh {
+  color: rgb(250, 96, 96);
+  background-color: green;
+}
+
+.Javascript {
+  background-color: rgb(240, 219, 79);
+  color: black;
+}
+
+.LikeWork {
+  background-color: rgb(86 205 172);
+  color: black;
+}
+
+.Reactjs {
+  background-color: rgb(97, 218, 251);
+}
+
+.OpenSource {
+  background-color: rgb(61, 166, 57);
+}
+
+.CurrentWork {
+  background-color: rgba(0, 0, 0, 0.2);
+}

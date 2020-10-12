@@ -1,0 +1,32 @@
+.aboutMe {
+  margin-left: 240px;
+}
+
+.aboutMe__content {
+  width: 80%;
+  margin: 50px auto;
+  background-color: rgb(228, 254, 255);
+  padding: 0 36px 10px;
+  font-size: 120%;
+  text-align: center;
+}
+
+.aboutMe__aboutme {
+  padding-top: 16px;
+  padding-bottom: 3px;
+  border-bottom: 2px solid gray;
+}
+
+.aboutMe_education {
+  padding-bottom: 16px;
+}
+
+@media (max-width: 767px) {
+  .aboutMe {
+    margin-left: 0;
+  }
+
+  .aboutMe__content {
+    margin: -20px auto 15px;
+  }
+}

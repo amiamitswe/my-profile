@@ -1,0 +1,21 @@
+.Mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .Mobile {
+    display: block;
+  }
+
+  .Desktop {
+    display: none;
+  }
+}
+
+.Open {
+  transform: translateX(1);
+}
+
+.Close {
+  transform: translateX(-100%);
+}
