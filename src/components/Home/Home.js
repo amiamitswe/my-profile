@@ -19,9 +19,8 @@ const home = () => {
         key={keys}
         title={homeContent[el][0]}
         titleValue={homeContent[el][1]}
-        givenStyle={styles.HomeSubContent}
-        otherClass={homeContent[el][2]}
-        testLink={homeContent[el][3]}
+        ownClassName={homeContent[el][2]}
+        srcLink={homeContent[el][3]}
       />
     )
   })
@@ -30,8 +29,8 @@ const home = () => {
     <div className="w3-container w3-center w3-animate-zoom">
       <div className={styles.Home}>
         <div className={styles.HomeContent}>
-          <h2 className={styles.myNameWrap}>Hi I am
-          <span className={styles.myName}>Amit Samadder</span></h2>
+          <h2 className={styles.MyNameWrap}>Hi I am
+          <span className={styles.MyName}>Amit Samadder</span></h2>
 
           {homeContentOutput}
 

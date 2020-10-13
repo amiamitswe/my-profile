@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './Dashbord.module.css';
+import styles from './Experience.module.css';
 
-const dashbord = () => {
+const experience = () => {
   return (
     <div className={[styles.Dashbord, 'w3-container', ' w3-center', 'w3-animate-zoom'].join(' ')} >
       <h1>Coming SOON.... <br /> 😀😀😀😀😀 </h1>
@@ -9,4 +9,4 @@ const dashbord = () => {
   );
 };
 
-export default dashbord;
+export default experience;

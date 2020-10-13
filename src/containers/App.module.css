@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
 .App {
   text-align: center;
 }
@@ -9,6 +11,8 @@
   margin-bottom: 0;
   padding: 16px;
   color: #393939;
+  font-family: "Sacramento", cursive;
+  font-size: 36px;
 }
 
 @media (max-width: 767px) {
@@ -27,7 +31,6 @@
 
 .ShowMenu {
   cursor: pointer;
-  font-size: 20px;
   background-color: transparent;
   border: none;
   position: absolute;

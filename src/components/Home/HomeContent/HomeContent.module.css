@@ -7,6 +7,14 @@
   color: #fff;
 }
 
+.HomeSubContent {
+  background-color: olivedrab;
+  width: 50%;
+  margin: 0 auto;
+  padding: 5px;
+  color: white;
+}
+
 .Bangladesh {
   color: rgb(250, 96, 96);
   background-color: green;

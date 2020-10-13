@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import profilePic from '../../assets/profile.jpg';
+import profilePic from '../../../assets/profile.jpg';
 import BackDrop from '../BackDrop/BackDrop';
 import styles from './SideBar.module.css';
 
@@ -22,6 +22,7 @@ const sideBar = (props) => {
           <NavLink to="/aboutme" activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>About Me</NavLink>
           <NavLink to="/myPhotos" activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>My Photos</NavLink>
           <NavLink to="/dashbord" activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>Dashbord</NavLink>
+          <NavLink to="/experience" activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>Experience</NavLink>
         </div>
       </div>
     </div>

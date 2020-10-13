@@ -3,11 +3,11 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import MENU from '../assets/menu.png';
 import AboutMe from '../components/AboutMe/AboutMe';
 import Dashbord from '../components/DashBord/Dashbord';
+import Experience from '../components/Experience/Experience';
 import Home from '../components/Home/Home';
 import MyPhotos from '../components/MyPhotos/MyPhotos';
-import NavBar from '../components/NavBar/Navbar';
 import PageNotFound from '../components/PageNotFound';
-import '../Styles/Animation.css';
+import NavBar from '../components/UI/NavBar/Navbar';
 import styles from './App.module.css';
 
 
@@ -49,6 +49,7 @@ class App extends Component {
             <Route path='/dashbord' component={Dashbord} exact={true} />
             <Route path='/aboutme' component={AboutMe} exact={true} />
             <Route path='/myPhotos' component={MyPhotos} exact={true} />
+            <Route path='/experience' component={Experience} exact={true} />
             <Route component={PageNotFound} />
           </Switch>
           

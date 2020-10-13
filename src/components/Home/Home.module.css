@@ -25,25 +25,18 @@
   }
 }
 
-.myNameWrap {
+.MyNameWrap {
   padding-top: 26px;
   margin-bottom: 50px;
 }
-.myName {
+.MyName {
   border-bottom: 3px solid gray;
   transition: background-color 0.2s, color 0.2s;
   margin-left: 15px;
 }
 
-.myName:hover {
+.MyName:hover {
   background-color: gray;
   color: white;
   cursor: pointer;
-}
-.HomeSubContent {
-  background-color: olivedrab;
-  width: 50%;
-  margin: 0 auto;
-  padding: 5px;
-  color: white;
 }

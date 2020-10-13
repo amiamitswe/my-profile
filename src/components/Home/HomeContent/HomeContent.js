@@ -1,14 +1,14 @@
 import React from 'react';
-import './HomeContent.css';
+import classes from './HomeContent.module.css';
 
 const HomeInfo = (props) => {
   return (
-    <div className='HomeContent'>
+    <div className={classes.HomeContent}>
       <h3>{props.title}</h3>
-      <h2 className={[props.givenStyle, props.otherClass].join(' ')}>
+      <h2 className={[classes.HomeSubContent, classes[props.ownClassName]].join(' ')}>
 
-        {props.testLink !== undefined ?
-          <a href={props.testLink} target='blank'>{props.titleValue}</a> :
+        {props.srcLink !== undefined ?
+          <a href={props.srcLink} target='blank'>{props.titleValue}</a> :
           props.titleValue}
       </h2>
     </div>
