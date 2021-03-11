@@ -1,10 +1,10 @@
 import React from 'react'
 import ComingSoon from '../ComingSoon/ComingSoon'
 
-const experience = () => {
+const Dashboard = () => {
   return (
     <ComingSoon />
   )
 }
 
-export default experience
+export default Dashboard

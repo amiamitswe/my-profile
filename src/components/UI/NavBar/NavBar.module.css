@@ -12,10 +12,6 @@
   }
 }
 
-.Open {
-  transform: translateX(1);
-}
-
 .Close {
   transform: translateX(-100%);
 }

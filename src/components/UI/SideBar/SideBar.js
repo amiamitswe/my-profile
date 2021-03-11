@@ -1,15 +1,17 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import profilePic from '../../../assets/profile.jpg';
-import BackDrop from '../BackDrop/BackDrop';
-import styles from './SideBar.module.css';
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+import profilePic from '../../../assets/profile.jpg'
+import BackDrop from '../BackDrop/BackDrop'
+import styles from './SideBar.module.css'
 
 
 const sideBar = (props) => {
   return (
     <div>
-      <BackDrop show={props.show} 
-      clicked={props.clicked}/>
+      <BackDrop
+        show={props.show}
+        clicked={props.clicked}
+      />
       <div className={styles.sideBar}>
 
         <NavLink to="/">
@@ -18,15 +20,15 @@ const sideBar = (props) => {
           </div>
         </NavLink>
         <div>
-          <NavLink to="/" activeClassName={styles.sideBar__activeClass} className={styles.NavLink} id={styles.NavLink__fistchild} exact={true}>Home</NavLink>
-          <NavLink to="/aboutme" activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>About Me</NavLink>
-          <NavLink to="/myPhotos" activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>My Photos</NavLink>
-          <NavLink to="/dashbord" activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>Dashbord</NavLink>
-          <NavLink to="/experience" activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>Experience</NavLink>
+          <NavLink to="/" onClick={props.clicked} activeClassName={styles.sideBar__activeClass} className={styles.NavLink} id={styles.NavLink__fistChild} exact={true}>Home</NavLink>
+          <NavLink to="/aboutMe" onClick={props.clicked} activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>About Me</NavLink>
+          <NavLink to="/myPhotos" onClick={props.clicked} activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>My Photos</NavLink>
+          <NavLink to="/dashboard" onClick={props.clicked} activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>Dashboard</NavLink>
+          <NavLink to="/experience" onClick={props.clicked} activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>Experience</NavLink>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default sideBar;
+export default sideBar

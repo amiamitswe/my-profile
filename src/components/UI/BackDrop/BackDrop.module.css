@@ -7,17 +7,3 @@
   top: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
-@media (max-width: 767px) {
-  /* .Backdrop {
-    display: block;
-  } */
-}
-
-.Open {
-  transform: translateX(0);
-}
-
-.Close {
-  transform: translateX(-100%);
-}

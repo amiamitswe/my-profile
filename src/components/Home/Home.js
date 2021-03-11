@@ -10,7 +10,7 @@ const home = () => {
     'Comfortable': ['Comfortable with', 'React JS', 'Reactjs'],
     'Like': ['Like to work wit', 'Ubuntu, VSCode, WebStorm', 'LikeWork'],
     'Advocate': ['Advocate of', 'open source software', 'OpenSource'],
-    'Currently': ['Currently Working at', 'Omicron IT', 'CurrentWork', 'https://omicron-it.com/']
+    'Currently': ['Currently Working at', 'Lotus Tech Dev', 'CurrentWork', 'https://lotustech.dev/']
   }
 
   const homeContentOutput = Object.keys(homeContent).map((el, keys) => {

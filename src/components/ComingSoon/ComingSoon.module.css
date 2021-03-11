@@ -1,11 +1,11 @@
-.Dashbord {
+.Dashboard {
   color: blue;
   margin-left: 240px;
   text-align: center;
 }
 
 @media (max-width: 767px) {
-  .Dashbord {
+  .Dashboard {
     margin-left: 0;
   }
 }

@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-.App__mytext {
+.App__myText {
   margin-left: 240px;
   background-color: rgb(173, 247, 197);
   margin-top: 0px;
@@ -16,7 +16,7 @@
 }
 
 @media (max-width: 767px) {
-  .App__mytext {
+  .App__myText {
     margin-left: 0;
     text-align: right;
     font-size: 1.8em;
