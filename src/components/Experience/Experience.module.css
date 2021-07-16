@@ -1,0 +1,32 @@
+.experence {
+  margin-left: 240px;
+}
+
+.experence__content {
+  width: 80%;
+  margin: 50px auto;
+  background-color: rgb(228, 254, 255);
+  padding: 0 36px 10px;
+  font-size: 120%;
+  text-align: center;
+}
+
+.experence__about {
+  padding-top: 16px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid gray;
+}
+
+.experence_education {
+  padding-bottom: 16px;
+}
+
+@media (max-width: 767px) {
+  .experence {
+    margin-left: 0;
+  }
+
+  .experence__content {
+    margin: -20px auto 15px;
+  }
+}

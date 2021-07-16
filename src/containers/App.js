@@ -38,7 +38,7 @@ class App extends Component {
 
           <div className={styles.Title}>
             <button onClick={this.showNavHandler} className={styles.ShowMenu}><img src={MENU} alt="MENU" /></button>
-            <h1 className={styles.App__myText}>Amit Samadder</h1>
+            {/* <h1 className={styles.App__myText}>Amit Samadder</h1> */}
           </div>
 
           <Switch>

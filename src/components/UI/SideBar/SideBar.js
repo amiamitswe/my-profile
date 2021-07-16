@@ -23,7 +23,7 @@ const sideBar = (props) => {
           <NavLink to="/" onClick={props.clicked} activeClassName={styles.sideBar__activeClass} className={styles.NavLink} id={styles.NavLink__fistChild} exact={true}>Home</NavLink>
           <NavLink to="/aboutMe" onClick={props.clicked} activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>About Me</NavLink>
           <NavLink to="/myPhotos" onClick={props.clicked} activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>My Photos</NavLink>
-          <NavLink to="/dashboard" onClick={props.clicked} activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>Dashboard</NavLink>
+          {/* <NavLink to="/dashboard" onClick={props.clicked} activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>Dashboard</NavLink> */}
           <NavLink to="/experience" onClick={props.clicked} activeClassName={styles.sideBar__activeClass} className={styles.NavLink}>Experience</NavLink>
         </div>
       </div>
