@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react";
 
-const myDetails = (props) => (
-  <p>{props.detailText}</p>
-)
+const myDetails = (props) => <p>{props.detailText}</p>;
 
-export default myDetails
+export default myDetails;

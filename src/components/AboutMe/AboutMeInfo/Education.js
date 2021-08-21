@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const education = (props) => (
   <li className={props.eduStyle}>{props.infoText}</li>
-)
+);
 
-export default education
+export default education;

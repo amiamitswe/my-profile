@@ -8,9 +8,9 @@
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(7, 5vw);
-  grid-gap: 1.5rem;
-  padding: 1.5rem;
-  margin: 1rem 2rem;
+  grid-gap: 1rem;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .gallery__item {

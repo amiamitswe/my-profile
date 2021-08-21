@@ -1,10 +1,8 @@
-import React from 'react'
-import ComingSoon from '../ComingSoon/ComingSoon'
+import React from "react";
+import ComingSoon from "../ComingSoon/ComingSoon";
 
 const Dashboard = () => {
-  return (
-    <ComingSoon />
-  )
-}
+  return <ComingSoon />;
+};
 
-export default Dashboard
+export default Dashboard;
