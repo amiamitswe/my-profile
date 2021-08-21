@@ -92,7 +92,7 @@
   }
 
   .gallery {
-    margin: 0 1rem;
+    margin: 0;
     padding: 0.5rem;
     grid-gap: 0.5rem;
 
