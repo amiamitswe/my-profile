@@ -2,28 +2,41 @@ import React from "react";
 import styles from "./Home.module.css";
 import HomeContent from "./HomeContent/HomeContent";
 
+type homeContentType = {
+  from: Array<string>;
+  work: Array<string>;
+  Comfortable: Array<string>;
+  Like: Array<string>;
+  Advocate: Array<string>;
+  Currently: Array<string>;
+};
+
 const home = () => {
-  const homeContent = {
-    from: ["Frontend developer from", "Bagladesh", "Bangladesh"],
-    work: ["Love to work with", "JavaScript", "Javascript"],
+  const homeContent: homeContentType = {
+    from: ["Frontend developer from", "Bangladesh", "Bangladesh"],
+    work: ["Love to work with", "JavaScript, TypeScript", "Javascript"],
     Comfortable: ["Comfortable with", "React JS, Next JS", "Reactjs"],
-    Like: ["Like to work wit", "Ubuntu, MAC OS, VSCode", "LikeWork"],
+    Like: ["Like to work wit", "MAC OS, Ubuntu, VSCode", "LikeWork"],
     Advocate: ["Advocate of", "Open source software", "OpenSource"],
     Currently: [
       "Currently Working at",
-      "Qcoom.com",
+      "Technext Limited",
       "CurrentWork",
-      "https://qcoom.com/",
+      "https://technext.it/",
     ],
   };
 
-  const homeContentOutput = Object.keys(homeContent).map((el, keys) => {
+  const homeContentOutput = Object.keys(homeContent).map((el: string, keys) => {
     return (
       <HomeContent
         key={keys}
+        // @ts-ignore
         title={homeContent[el][0]}
+        // @ts-ignore
         titleValue={homeContent[el][1]}
+        // @ts-ignore
         ownClassName={homeContent[el][2]}
+        // @ts-ignore
         srcLink={homeContent[el][3]}
       />
     );

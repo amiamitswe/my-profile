@@ -1,10 +1,15 @@
-import React from "react";
+import React, { MouseEventHandler } from "react";
 import { NavLink } from "react-router-dom";
 import profilePic from "../../../assets/profile.jpg";
 import BackDrop from "../BackDrop/BackDrop";
 import styles from "./SideBar.module.css";
 
-const sideBar = (props) => {
+type Props = {
+  clicked?: MouseEventHandler;
+  show?: boolean;
+};
+
+const sideBar = (props: Props) => {
   return (
     <div>
       <BackDrop show={props.show} clicked={props.clicked} />
