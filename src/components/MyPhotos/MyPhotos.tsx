@@ -1,4 +1,5 @@
 import React from "react";
+// @ts-ignore
 import IMG1 from "../../assets/Gallery/1.JPG";
 import IMG2 from "../../assets/Gallery/2.jpg";
 import IMG3 from "../../assets/Gallery/A3.jpg";

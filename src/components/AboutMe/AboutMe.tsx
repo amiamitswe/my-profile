@@ -7,13 +7,13 @@ const aboutMe = () => {
   const myInfo = {
     education: [
       `MSc in Software Engineering from Daffodil International University. On going...`,
-      `Bachelor of Science in Software Engineering from Daffodil International University. [May - 2018]`,
+      `Bachelor of Science in Software Engineering from Daffodil International University. [2014 - 2018]`,
       `H.S.C from Shahid Smrity Degree COllege, Barishal`,
       `S.S.C from Harta High School, Barishal`,
     ],
     myDetails: [
       `Love to work with JavaScript and enjoy problem solving. Frontend developer, comfortable with ReactJS. A self taught, quick learner and analytical person. I write code to give satisfaction to human and relief to machine.`,
-      `I use Linux Mint and Visual Studio Code for daily work. Passionate about Web Development and enjoy to experiment on these. Dream to become a Full Stack JavaScript developer.`,
+      `I use MAC-OS and Visual Studio Code for daily work. Passionate about Web Development and enjoy to experiment on these. Dream to become a Full Stack JavaScript developer.`,
     ],
   };
 

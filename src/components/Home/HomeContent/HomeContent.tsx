@@ -1,7 +1,14 @@
 import React from "react";
 import classes from "./HomeContent.module.css";
 
-const HomeInfo = (props) => {
+type Props = {
+  title: string;
+  titleValue: string;
+  ownClassName: string;
+  srcLink: string;
+};
+
+const HomeInfo = (props: Props) => {
   return (
     <div className={classes.HomeContent}>
       <h3>{props.title}</h3>

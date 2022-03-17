@@ -1,6 +1,11 @@
 import React from "react";
 
-const education = (props) => (
+type Props = {
+  eduStyle: string;
+  infoText: string;
+};
+
+const education = (props: Props) => (
   <li className={props.eduStyle}>{props.infoText}</li>
 );
 

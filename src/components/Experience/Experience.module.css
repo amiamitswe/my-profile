@@ -1,8 +1,8 @@
-.experence {
+.experience {
   margin-left: 240px;
 }
 
-.experence__content {
+.experience__content {
   width: 80%;
   margin: 50px auto;
   background-color: rgb(228, 254, 255);
@@ -11,22 +11,22 @@
   text-align: center;
 }
 
-.experence__about {
+.experience__about {
   padding-top: 16px;
   padding-bottom: 15px;
   border-bottom: 2px solid gray;
 }
 
-.experence_education {
+.experience_education {
   padding-bottom: 16px;
 }
 
 @media (max-width: 767px) {
-  .experence {
+  .experience {
     margin-left: 0;
   }
 
-  .experence__content {
+  .experience__content {
     margin: -20px auto 15px;
   }
 }
