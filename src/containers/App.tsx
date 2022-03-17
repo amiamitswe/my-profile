@@ -10,8 +10,12 @@ import PageNotFound from "../components/PageNotFound";
 import NavBar from "../components/UI/NavBar/Navbar";
 import styles from "./App.module.css";
 
+interface IState {
+  showNav: boolean;
+}
+
 class App extends Component {
-  state = {
+  state: IState = {
     showNav: false,
   };
 
@@ -20,7 +24,7 @@ class App extends Component {
   };
 
   closeNavHandler = () => {
-    this.setState((preState) => {
+    this.setState((preState: IState) => {
       return { showNav: !preState.showNav };
     });
   };
@@ -38,7 +42,6 @@ class App extends Component {
             <button onClick={this.showNavHandler} className={styles.ShowMenu}>
               <img src={MENU} alt="MENU" />
             </button>
-            {/* <h1 className={styles.App__myText}>Amit Samadder</h1> */}
           </div>
 
           <Switch>
